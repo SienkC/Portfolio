@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin:0%;
+}
+
+header{
+    /* Uses the height of the viewport */
+    height: 15vh;
+    width: 100vw;
+    margin: 0 auto;
+    background-color: rgb(89, 89, 89);
+    display: flex;
+    /* Centers along the x axis */
+    align-items: center;
+}
+
+h1{
+    flex: 1;
+}
+
+nav{
+    flex: 2;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    /* Make list items appear on right of page */
+    justify-content: right;
+}
