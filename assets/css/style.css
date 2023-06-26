@@ -1,3 +1,9 @@
+:root{
+    /* Variables to make colors easier to change if need be */
+    --darkHeader: #333A40;
+    --lightHeader: #A1E7EB;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +20,7 @@ header{
     padding: auto;
     width: 100vw;
     margin: 0 auto;
-    background-color: #333A40;
+    background-color: var(--darkHeader);
     display: flex;
     /* Centers along the x axis */
     align-items: center;
@@ -25,8 +31,8 @@ h1{
     padding: 0.3%;
     margin: 14px 0px;
     flex: 1 0 430px;
-    background-color: #A1E7EB;
-    color: #333A40;
+    background-color: var(--lightHeader);
+    color: var(--darkHeader);
     text-align: right;
     font-size: 250%;
     font-weight: bold;
@@ -52,23 +58,23 @@ nav ul{
 nav li{
     padding: 10px;
     margin: 5px;
-    border-bottom: 4px solid #A1E7EB;
+    border-bottom: 4px solid var(--lightHeader);
 }
 
 /* unvisited link */
 nav a:link {
     text-decoration: none;
-    color: #A1E7EB;
+    color: var(--lightHeader);
 }
 
 /* visited link */
 nav a:visited {
     text-decoration: none;
-    color: #A1E7EB;
+    color: var(--lightHeader);
 }
 
 /* selected link */
 nav a:active {
     text-decoration: none;
-    color: #A1E7EB;
+    color: var(--lightHeader);
 }
