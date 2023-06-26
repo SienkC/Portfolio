@@ -1,30 +1,74 @@
 * {
     box-sizing: border-box;
-    margin:0%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    text-decoration: none;
 }
 
 header{
-    /* Uses the height of the viewport */
-    height: 15vh;
+    /* height: 50px; */
+    padding: auto;
     width: 100vw;
     margin: 0 auto;
-    background-color: rgb(89, 89, 89);
+    background-color: #333A40;
     display: flex;
     /* Centers along the x axis */
     align-items: center;
+    flex-wrap: wrap;
 }
 
 h1{
-    flex: 1;
+    padding: 0.3%;
+    margin: 14px 0px;
+    flex: 1 0 430px;
+    background-color: #A1E7EB;
+    color: #333A40;
+    text-align: right;
+    font-size: 250%;
+    font-weight: bold;
 }
 
 nav{
-    flex: 2;
+    margin-right: 5%;
+    flex: 10;
+    font-size: 130%;
+    font-weight: bold;
+
 }
 
-ul{
+nav ul{
     display: flex;
     flex-direction: row;
     /* Make list items appear on right of page */
-    justify-content: right;
+    justify-content:flex-end;
+    /* Remove bullet points */
+    list-style: none;
+}
+
+nav li{
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 4px solid #A1E7EB;
+}
+
+/* unvisited link */
+nav a:link {
+    text-decoration: none;
+    color: #A1E7EB;
+}
+
+/* visited link */
+nav a:visited {
+    text-decoration: none;
+    color: #A1E7EB;
+}
+
+/* selected link */
+nav a:active {
+    text-decoration: none;
+    color: #A1E7EB;
 }
