@@ -1,7 +1,7 @@
 :root{
     /* Variables to make colors easier to change if need be */
-    --darkHeader: #333A40;
-    --lightHeader: #A1E7EB;
+    --darkHeader: #30353D;
+    --lightHeader: #9CD9D9;
 }
 
 * {
@@ -29,7 +29,7 @@ header{
 
 h1{
     padding: 0.3%;
-    margin: 14px 0px;
+    margin: 14px 70px 14px 0px;
     flex: 1 0 430px;
     background-color: var(--lightHeader);
     color: var(--darkHeader);
@@ -61,20 +61,42 @@ nav li{
     border-bottom: 4px solid var(--lightHeader);
 }
 
-/* unvisited link */
-nav a:link {
+/* Links in navigation */
+nav a {
     text-decoration: none;
     color: var(--lightHeader);
 }
 
 /* visited link */
-nav a:visited {
+/* nav a:visited {
     text-decoration: none;
     color: var(--lightHeader);
-}
+} */
 
 /* selected link */
-nav a:active {
+/* nav a:active {
     text-decoration: none;
     color: var(--lightHeader);
+} */
+
+.subtitle{
+    /* FIX */
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    /* image with gradient over it */
+    background-image: linear-gradient(to bottom, #235e7c9d, #0a174288),
+    url("../images/02-hero-bg.jpg");
+    /* In case image doesn't show */
+    background-color: darkblue;
+    background-size: cover;
+    background-position: center;
 }
+
+/* .filter{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+    opacity: 0.5;
+} */
