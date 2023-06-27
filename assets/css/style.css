@@ -71,18 +71,6 @@ nav a {
     color: var(--lightHeader);
 }
 
-/* visited link */
-/* nav a:visited {
-    text-decoration: none;
-    color: var(--lightHeader);
-} */
-
-/* selected link */
-/* nav a:active {
-    text-decoration: none;
-    color: var(--lightHeader);
-} */
-
 .subtitle{
     /* FIX */
     height: 200px;
