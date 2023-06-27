@@ -2,6 +2,7 @@
     /* Variables to make colors easier to change if need be */
     --darkHeader: #30353D;
     --lightHeader: #9CD9D9;
+    --contentColor: #445877;
 }
 
 * {
@@ -88,9 +89,76 @@ nav a {
     background-image: linear-gradient(to bottom, #235e7c9d, #0a174288),
     url("../images/02-hero-bg.jpg");
     /* In case image doesn't show */
-    background-color: darkblue;
+    background-color: var(--darkHeader);
     background-size: cover;
     background-position: center;
+}
+
+.subtitle h2{
+    background-color: var(--lightHeader);
+    color: var(--darkHeader);
+    font-size: 220%;
+    width: 180px;
+    padding:5px;
+    position: relative;
+    top: 65%;
+    left: 65vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    color: var(--contentColor);
+}
+
+.side_label{
+    flex:1 0 1%;
+    margin: 10px;
+    font-size: 250%;
+    text-align: right;
+}
+
+.info{
+    flex:4;
+    padding: 20px;
+    margin:10px;
+    border-left: 4px solid var(--contentColor);
+    font-size: 100%;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#largeEx{
+    flex: 10;
+    width: 100%;
+    height:100%;
+    background-image: url(../images/02-portfolio-4.jpg);
+}
+
+.smallEx{
+    flex:1;
+    width: 50%;
+    height: 50%;;
+}
+
+#led{
+    background-image: url(../images/02-portfolio-1.jpg);
+}
+
+#calculator{
+    background-image: url(../images/02-portfolio-2.jpg);
+}
+
+#puzzel{
+    background-image: url(../images/02-portfolio-3.jpg);
+}
+
+#buddy{
+    background-image: url(../images/02-run-buddy.jpg);
 }
 
 /* .filter{
