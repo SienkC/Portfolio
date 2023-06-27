@@ -3,6 +3,8 @@
     --darkHeader: #30353D;
     --lightHeader: #9CD9D9;
     --contentColor: #445877;
+    --background: #EEEEF7;
+    --workFilter: #1233676c;
 }
 
 * {
@@ -14,12 +16,13 @@
 body{
     font-family: sans-serif;
     text-decoration: none;
+    background-color: var(--background);
 }
 
 header{
     /* height: 50px; */
     padding: auto;
-    width: 100vw;
+    /* width: 100vw; */
     margin: 0 auto;
     background-color: var(--darkHeader);
     display: flex;
@@ -102,7 +105,8 @@ nav a {
     padding:5px;
     position: relative;
     top: 65%;
-    left: 65vw;
+    /* left: 65vw; */
+    right: -60vw;
 }
 
 .content{
@@ -112,53 +116,76 @@ nav a {
 }
 
 .side_label{
-    flex:1 0 1%;
+    flex:1 0 149px;
     margin: 10px;
     font-size: 250%;
     text-align: right;
 }
 
 .info{
-    flex:4;
+    flex:10;
     padding: 20px;
     margin:10px;
     border-left: 4px solid var(--contentColor);
     font-size: 100%;
 }
 
-.work{
+.workCont{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 #largeEx{
-    flex: 10;
-    width: 100%;
-    height:100%;
-    background-image: url(../images/02-portfolio-4.jpg);
+    flex: 20 0 60%;
+    height: 400px;
+    border: 5px solid var(--lightHeader);
+    margin: 10px;
+    background-image:linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-4.jpg);
 }
 
 .smallEx{
-    flex:1;
-    width: 50%;
-    height: 50%;;
+    flex:1 0 40%;
+    height: 200px;
+    border: 5px solid var(--lightHeader);
+    margin: 10px;
 }
 
 #led{
-    background-image: url(../images/02-portfolio-1.jpg);
+    background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-1.jpg);
 }
 
 #calculator{
-    background-image: url(../images/02-portfolio-2.jpg);
+    background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-2.jpg);
 }
 
 #puzzel{
-    background-image: url(../images/02-portfolio-3.jpg);
+    background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-3.jpg);
 }
 
 #buddy{
-    background-image: url(../images/02-run-buddy.jpg);
+    background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-run-buddy.jpg);
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    /* Remove bullet points */
+    list-style: none;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+#contact li{
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 4px solid var(--contentColor);
+}
+
+/* Links in navigation */
+#contact a {
+    text-decoration: none;
+    color: var(--contentColor);
 }
 
 /* .filter{
