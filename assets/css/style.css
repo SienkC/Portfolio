@@ -42,6 +42,11 @@ h1{
     font-weight: bold;
 }
 
+a{  
+    /* Remove link decoration for all links */
+    text-decoration: none;
+}
+
 nav{
     margin-right: 5%;
     flex: 10;
@@ -67,7 +72,6 @@ nav li{
 
 /* Links in navigation */
 nav a {
-    text-decoration: none;
     color: var(--lightHeader);
 }
 
@@ -122,6 +126,23 @@ nav a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.workLabel{
+    color: var(--darkHeader);
+    background-color: var(--lightHeader);
+    padding: 10px;
+    /* position: relative;
+    top: 65px; */
+}
+
+.workLabel h4{
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.workLabel p{
+    font-size: 100%;
 }
 
 #largeEx{
@@ -197,7 +218,6 @@ nav a {
 
 /* Links in navigation */
 #contact a {
-    text-decoration: none;
     color: var(--contentColor);
 }
 
