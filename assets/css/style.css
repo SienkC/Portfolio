@@ -144,6 +144,11 @@ nav a {
     background-image:linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-4.jpg);
 }
 
+/* Remove color filter on hover */
+#largeEx:hover{
+    background-image:url(../images/02-portfolio-4.jpg);
+}
+
 .smallEx{
     flex:1 0 40%;
     height: 200px;
@@ -155,16 +160,36 @@ nav a {
     background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-1.jpg);
 }
 
+/* Remove color filter on hover */
+#led:hover{
+    background-image: url(../images/02-portfolio-1.jpg);
+}
+
 #calculator{
     background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-2.jpg);
+}
+
+/* Remove color filter on hover */
+#calculator:hover{
+    background-image: url(../images/02-portfolio-2.jpg);
 }
 
 #puzzel{
     background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-3.jpg);
 }
 
+/* Remove color filter on hover */
+#puzzel:hover{
+    background-image: url(../images/02-portfolio-3.jpg);
+}
+
 #buddy{
     background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-run-buddy.jpg);
+}
+
+/* Remove color filter on hover */
+#buddy:hover{
+    background-image: url(../images/02-run-buddy.jpg);
 }
 
 #contact{
