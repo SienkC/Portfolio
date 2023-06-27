@@ -132,8 +132,21 @@ nav a {
     color: var(--darkHeader);
     background-color: var(--lightHeader);
     padding: 10px;
-    /* position: relative;
-    top: 65px; */
+    width:fit-content;
+}
+
+#largeEx .workLabel{
+    position: relative;
+    top: 78%;
+    left: 0%;
+    transform: translate(0%, -22%);
+}
+
+.smallEx .workLabel{
+    position: relative;
+    top: 60%;
+    left: 0%;
+    transform: translate(0%, -40%);
 }
 
 .workLabel h4{
