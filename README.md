@@ -17,6 +17,8 @@ N/A
 To use the Portfolio page, load webpage and view each section by clicking the corresponding name in the navigation at the top of the page. When in the 'Work' section, click on the images to be directed to the webpage that corresponds with its label. When in the 'Contact Me' section, click on the various links for
 different methods of contacting or reaching social media profiles.
 
+Link to the webpage: [Portfolio](https://sienkc.github.io/Portfolio/)
+
 Screenshot at full size:
 ![Screenshot of Webpage at full size](assets/images/Screenshots%20for%20README/full_size_screen.png)
 
