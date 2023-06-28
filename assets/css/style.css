@@ -118,7 +118,7 @@ nav a {
     padding: 20px;
     margin:10px;
     border-left: 4px solid var(--contentColor);
-    font-size: 100%;
+    font-size: 120%;
 }
 
 .workCont{
@@ -237,7 +237,7 @@ nav a {
     border-bottom: 4px solid var(--contentColor);
 }
 
-/* Links in navigation */
+/* Links in contact me */
 #contact a {
     color: var(--contentColor);
 }
@@ -268,7 +268,7 @@ nav a {
     }
 }
 
-  /* Smartphones */
+/* Smartphones */
 @media screen and (max-width: 768px) {
 
     /* Work items change to column */
