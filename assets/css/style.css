@@ -271,6 +271,10 @@ nav a {
 /* Smartphones */
 @media screen and (max-width: 768px) {
 
+    #about_me .info img{
+        float:none;
+    }
+
     /* Adjust about me image to be on top of paragraph */
     #about_me .info{
         display: flex;
