@@ -271,6 +271,13 @@ nav a {
 /* Smartphones */
 @media screen and (max-width: 768px) {
 
+    /* Adjust about me image to be on top of paragraph */
+    #about_me .info{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+
     /* Work items change to column */
     .workCont{
         flex-direction: column;
