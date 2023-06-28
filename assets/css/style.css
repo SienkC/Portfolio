@@ -241,3 +241,47 @@ nav a {
 #contact a {
     color: var(--contentColor);
 }
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    
+    nav ul{
+        /* Navigation orientation no longer on right */
+        justify-content: space-around;
+    }
+    
+    /* Turn orientation into column */
+    .content{
+        flex-direction: column;
+    }
+
+    /* Center and flatten text. Remove side border*/
+    .side_label{
+        flex:1;
+        text-align: center;
+    }
+
+    /* Remove border */
+    .info{
+        flex:1;
+        border-left:none;
+    }
+}
+
+  /* Smartphones */
+@media screen and (max-width: 768px) {
+
+    /* Work items change to column */
+    .workCont{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: fit-content;
+    }
+
+    /* Adjust size of work images */
+    #largeEx,
+    .smallEx{
+        margin: 5px 0px;
+        flex: 0 0 300px;
+    }
+}
