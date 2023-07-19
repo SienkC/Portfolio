@@ -166,12 +166,12 @@ nav a {
     border: 5px solid var(--lightHeader);
     margin: 10px;
     /* Adds image with filter */
-    background-image:linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-4.jpg);
+    background-image:linear-gradient(var(--workFilter),var(--workFilter)), url(../images/The_Comic_Vault.png);
 }
 
 /* Remove color filter on hover */
 #largeEx:hover{
-    background-image:url(../images/02-portfolio-4.jpg);
+    background-image:url(../images/The_Comic_Vault.png);
 }
 
 .smallEx{
@@ -183,13 +183,13 @@ nav a {
 }
 
 /* Adds image with filter */
-#led{
-    background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-1.jpg);
+#horiseon{
+    background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-4.jpg);
 }
 
 /* Remove color filter on hover */
-#led:hover{
-    background-image: url(../images/02-portfolio-1.jpg);
+#horiseon:hover{
+    background-image: url(../images/02-portfolio-4.jpg);
 }
 
 /* Adds image with filter */

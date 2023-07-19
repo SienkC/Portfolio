@@ -20,13 +20,13 @@ different methods of contacting or reaching social media profiles.
 Link to the webpage: [Portfolio](https://sienkc.github.io/Portfolio/)
 
 Screenshot at full size:
-![Screenshot of Webpage at full size](assets/images/Screenshots%20for%20README/full_size_screen.png)
+![Screenshot of Webpage at full size](./assets/images/full_size_screen.png)
 
 Screenshot at tablet size:
-![Screenshot of Webpage for tablet size](assets/images/Screenshots%20for%20README/tablet_size_screen.png)
+![Screenshot of Webpage for tablet size](./assets/images/tablet_size_screen.png)
 
 Screenshot at phone size (mobile):
-![Screenshot of Webpage for phone size](assets/images/Screenshots%20for%20README/phone_size_screen.png)
+![Screenshot of Webpage for phone size](./assets/images/phone_size_screen.png)
 
 ## Credits
 
