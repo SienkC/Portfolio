@@ -194,12 +194,12 @@ nav a {
 
 /* Adds image with filter */
 #calculator{
-    background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/02-portfolio-2.jpg);
+    background-image: linear-gradient(var(--workFilter),var(--workFilter)), url(../images/aqueous-garden-21223-0843a25d5cd3.herokuapp.com_games_7343.png);
 }
 
 /* Remove color filter on hover */
 #calculator:hover{
-    background-image: url(../images/02-portfolio-2.jpg);
+    background-image: url(../images/aqueous-garden-21223-0843a25d5cd3.herokuapp.com_games_7343.png);
 }
 
 /* Adds image with filter */
